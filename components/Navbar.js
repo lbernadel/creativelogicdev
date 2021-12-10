@@ -11,6 +11,26 @@ const Navbar = () => {
                         Creative Logic Logo
                     </a>
                 </Link>
+                <Link href="/about">
+                    <a className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}>
+                        About
+                    </a>
+                </Link>
+                <Link href="/creations">
+                    <a className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}>
+                        Creations
+                    </a>
+                </Link>
+                <Link href="/blog">
+                    <a className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}>
+                        Blog
+                    </a>
+                </Link>
+                <Link href="/contact">
+                    <a className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 dark:text-white"}>
+                        Contact
+                    </a>
+                </Link>
                 <ThemeSwitch />
             </div>
         </div>
